@@ -1,0 +1,6 @@
+puts "hello world"
+
+File.open('data.dat').each do |line|
+	print("#{line}")
+end
+puts ""
